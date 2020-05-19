@@ -15,3 +15,6 @@ use App\Http\Middleware\PrimeiroMiddleware;
 */
 
 Route::get('/usuarios', 'UsuarioControlador@index');
+Route::get('/', function() {
+	return 'teste';
+});
